@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/hassejaharsha-cell/nodejs-jenkins-cicd-demo.git'
+                git 'https://github.com/hassejaharsha-cell/nodejs-demo-app.git'
             }
         }
 
