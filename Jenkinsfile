@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "yourdockerhubusername/nodejs-jenkins-demo"
+        DOCKER_IMAGE = "hassejaharsha-cell/nodejs-jenkins-demo"
     }
 
     stages {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/YOUR_GITHUB_USERNAME/nodejs-jenkins-cicd-demo.git'
+                git 'https://github.com/hassejaharsha-cell/nodejs-jenkins-cicd-demo.git'
             }
         }
 
