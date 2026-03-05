@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "hassejaharsha-cell/nodejs-jenkins-demo"
+        DOCKER_IMAGE = "harshahasseja/nodejs-jenkins-demo"
     }
 
     stages {
